@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ContactForm from './ContactForm';
 
 export default class ContactContainer extends Component {
 
@@ -6,6 +7,7 @@ export default class ContactContainer extends Component {
     return (
       <div>
         Contact Page
+        <ContactForm/>
       </div>
     )
   }

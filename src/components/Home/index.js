@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
+import HomeContent from './Content';
 
-export default class HomeContainer extends Component {
+class HomeContainer extends Component {
 
   render() {
     return (
-      <div>
-        Home Page
-      </div>
+      <HomeContent/>
     )
   }
 }
+
+export default HomeContainer;

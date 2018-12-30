@@ -6,7 +6,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div id='footer'>
-        Footer
+        <p>&copy;2018 by Untitled Company. Proudly created by ImagineTech</p>
       </div>
     )
   }

@@ -1,12 +1,13 @@
 import React, {Component} from 'react';
+import ServicesContent from './content';
 
-export default class ServicesContainer extends Component {
+class ServicesContainer extends Component {
 
   render() {
     return (
-      <div>
-        Services Page
-      </div>
+      <ServicesContent/>
     )
   }
 }
+
+export default ServicesContainer;

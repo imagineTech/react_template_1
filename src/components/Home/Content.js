@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Home.css';
-import homeImage from '../../assets/people1.png';
+import homeImage from '../../assets/homeTop.png';
 
 class HomeContent extends Component {
   
@@ -11,7 +11,7 @@ class HomeContent extends Component {
           <img className='homeImage' alt='homeImage' src={homeImage}/>
           <div className='homeTitle'>Home Page</div>
         </div>
-        <div className='paraContainer'>
+        <div className='homeParaContainer'>
           <div>
             <h1>Mission</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent elementum tincidunt dolor eget convallis. Etiam blandit suscipit lectus et tristique. Mauris ut ultrices nisl, sit amet laoreet libero. Proin euismod porta mollis. Sed fringilla non ante sed cursus. Curabitur nulla dolor, posuere eu nibh vel, elementum iaculis nisi. Maecenas nec quam fermentum, ultricies ipsum sit amet, malesuada est. In sed viverra augue, non vestibulum massa. Nullam eget auctor velit. Aliquam et euismod enim. Aliquam eget velit vel enim maximus consectetur quis id mauris. Nullam at elementum nunc.</p>
@@ -26,6 +26,7 @@ class HomeContent extends Component {
             <h1>Values</h1>
             <p>Ut eget dui vehicula, egestas enim quis, consectetur leo. Cras ut mattis sem, ut eleifend tellus. Nam lectus quam, blandit ut est ac, molestie euismod felis. In nulla orci, vehicula vel vestibulum vitae, imperdiet et orci. Aenean porttitor vitae turpis a gravida. Vestibulum porta tempus lectus, ac faucibus erat tristique quis. In non ante eget augue finibus porttitor. In ac cursus lorem. Donec commodo malesuada sem. Donec tincidunt nibh et lectus tincidunt pretium. Maecenas lobortis leo in risus porta pulvinar. Cras sit amet iaculis purus, mollis tristique mauris. Phasellus consequat semper ipsum, sed cursus mauris commodo id. Cras sed lacus vitae diam tempor ultricies non non enim. Donec eget diam nec eros fringilla blandit. Etiam pretium eros massa, vel iaculis metus aliquet vitae.</p>
             <p>Curabitur in quam sed mi feugiat convallis non ut est. Proin sit amet orci sed lorem pellentesque volutpat. Curabitur in quam sit amet elit sollicitudin hendrerit. Sed pellentesque pulvinar mauris et fringilla. Phasellus a mollis neque. Curabitur sagittis erat a eros aliquam finibus. Donec a dignissim lacus, id imperdiet magna. Phasellus rhoncus mauris vel magna pretium, quis auctor dui aliquam. Nam dictum nisi metus, a porttitor arcu consequat vel.</p>
+            <p>Aenean sodales, quam quis ultricies blandit, est leo vehicula elit, quis tristique nunc enim at neque. In a dolor at enim molestie suscipit. In sit amet feugiat lacus. Maecenas nec luctus est. Donec et erat in est volutpat ornare quis eget libero. Curabitur iaculis lacus feugiat laoreet tempor. Phasellus congue nisi felis, at elementum ligula convallis sit amet. Pellentesque in risus vitae lectus pretium dictum. Aliquam consequat augue ligula, quis lacinia justo hendrerit vel. Nulla mauris ante, ullamcorper eu laoreet sed, faucibus a libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce et nisl at metus pretium bibendum. Curabitur pharetra, ante quis facilisis tincidunt, purus quam placerat turpis, eget luctus nisi risus eu eros. Duis commodo tortor felis, a dictum quam vestibulum sed. Nulla aliquam luctus quam, a dapibus tellus faucibus ac.</p>
           </div>
         </div>
       </div>

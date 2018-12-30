@@ -1,0 +1,33 @@
+.segmentImage {
+  height: 250px;
+  width: 350px;
+}
+
+.servicesSegment {
+  width: 350px;
+  margin: 0px 100px;
+}
+
+.servicesTitle {
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  z-index: 0;
+}
+
+.servicesImage {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-bottom: 5px solid goldenrod;
+}
+
+.servicesSmallParaContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0px 80px;
+  padding-top: 40px;
+}

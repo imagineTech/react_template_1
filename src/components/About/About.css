@@ -2,6 +2,7 @@
   width: 100%;
   height: 500px;
   object-fit: cover;
+  border-bottom: 5px solid goldenrod;
 }
 
 .aboutTitle {
@@ -11,4 +12,31 @@
   transform: translate(-50%, -50%);
   font-size: 70px;
   z-index: 0;
+}
+
+.aboutSegment {
+  width: 350px;
+}
+
+.aboutSmallParaContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 60px;
+}
+
+.segmentImage {
+  height: 250px;
+  width: 350px;
+}
+
+.quoteContainer {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+
+.aboutQuote {
+  width: 700px;
+  font-size: 70px;
+  text-align: center;
 }

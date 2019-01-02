@@ -22,7 +22,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  background-color: rgba(155, 155, 155, 0.904);
+  background-color: rgb(155, 155, 155);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;

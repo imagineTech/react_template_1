@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Footer from './Footer';
+import Footer from './Content';
 
 export default class FooterContainer extends Component {
 

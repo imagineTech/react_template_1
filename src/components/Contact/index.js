@@ -1,14 +1,15 @@
 import React, {Component} from 'react';
-import ContactForm from './ContactForm';
+import ContactForm from './Content';
 
 export default class ContactContainer extends Component {
 
+  componentDidMount() {
+    window.scrollTo(0,0);
+  }
+
   render() {
     return (
-      <div>
-        Contact Page
-        <ContactForm/>
-      </div>
+      <ContactForm/>
     )
   }
 }

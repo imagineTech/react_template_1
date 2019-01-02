@@ -1,11 +1,12 @@
 #footer {
-  height: 75px;
-  background-color: grey;
+  height: 45px;
+  background-color: rgb(155, 155, 155);
   width: 100%;
   margin-top: 40px;
 }
 
 #footer p {
   text-align: center;
-  bottom: 0;
+  position: relative;
+  top: 15px;
 }

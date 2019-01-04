@@ -12,12 +12,12 @@ class ScreenRoot extends Component {
     return(
       <div>
         <Header/>
-          <Switch>
-            <Route exact path={'/'} component={Home}/>
-            <Route path={'/about'} component={About}/>
-            <Route path={'/contact'} component={Contact}/>
-            <Route path={'/services'} component={Services}/>
-          </Switch>
+        <Switch>
+          <Route exact path={'/'} component={Home}/>
+          <Route path={'/about'} component={About}/>
+          <Route path={'/contact'} component={Contact}/>
+          <Route path={'/services'} component={Services}/>
+        </Switch>
         <Footer/>
       </div>
     )

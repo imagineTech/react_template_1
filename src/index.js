@@ -5,7 +5,7 @@ import Root from './screens/Root';
 import {BrowserRouter} from 'react-router-dom';
 
 ReactDOM.render(
-  <BrowserRouter basename={'https://imaginetech.github.io/react_template_1/'}>
+  <BrowserRouter basename={'/react_template_1/'}>
     <Root />
   </BrowserRouter>
   , document.getElementById('root'));

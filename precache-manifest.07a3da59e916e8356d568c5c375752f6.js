@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/react_template_1/static/media/aboutTechnology.1a72345a.png"
   },
   {
-    "revision": "3ac4465462f6c07af281",
+    "revision": "421a6208074a488658ef",
     "url": "/react_template_1/static/css/main.8bd0c845.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/react_template_1/static/media/aboutDesign.172d3c7c.png"
   },
   {
-    "revision": "3ac4465462f6c07af281",
-    "url": "/react_template_1/static/js/main.3ac44654.chunk.js"
+    "revision": "421a6208074a488658ef",
+    "url": "/react_template_1/static/js/main.421a6208.chunk.js"
   },
   {
     "revision": "061bc1c86dea82a2ee39202f95a093c8",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/react_template_1/static/media/servicesGrowth.383edd24.png"
   },
   {
-    "revision": "b29011a57957e4650d2908b42adb938d",
+    "revision": "939c367a7806781f4445989b9a26637b",
     "url": "/react_template_1/index.html"
   }
 ];
